@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <style>
+      /* p 태그를 선택자로 한 경우 : 모든 p 태그에 스타일이 적용됨*/
+      p {
+        color: orange;
+      }
+      /* id를 선택자로 한 경우 : 'id-test'를 id로 가지는 한 요소에게만 적용됨*/
+      #id-test {
+        color: blue;
+      }
+      /* class를 선택자로 한 경우 : 'class-test'를 class로 가지는 한 요소에게만 적용됨*/
+      .class-test {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Hello Grab</p>
+    <p>Hello Everyone</p>
+    <div id="id-test">id가 적용된다.</div>
+    <div class="class-test">클래스가 적용된다.</div>
+    <div class="class-test">클래스가 적용된다.</div>
+  </body>
+</html>
